@@ -82,14 +82,7 @@ class WeatherAppWindow(QMainWindow, form_class):
         # dust1_info = self.dustWeather1.text()#미세먼지
         # dust2_info = self.dustWeather2.text()#초미세먼지
 
-        self.area_in.setText(f"{weather_area}")
-        self.area_out.setText(f"{area_text}")
-        self.todayTemper.setText(f"{today_temper}")
-        self.yesterdayWeather.setText(f"{yesterday_weather}")
-        self.todayWeather.setText(f"{today_weather}")
-        self.senseTemper.setText(f"{sense_temper}")
-        self.dustWeather1.setText(f"{dust1_info}")
-        self.dustWeather2.setText(f"{dust2_info}")
+
 
 
 
